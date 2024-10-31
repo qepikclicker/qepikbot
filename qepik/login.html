@@ -28,21 +28,21 @@
     </div>
 
     <div class="login-page-detail">
-        <span>Sign up to save your rank and coins.</span>
+        <span>Rütbə və qepiklerinizi saxlamaq üçün qeydiyyatdan keçin.</span>
     </div>
 
     <div class="login-form">
         <form action="process_form.php" method="POST" onsubmit="document.getElementById('coins').value = localStorage.getItem('coins');">
-            <label for="name">Name</label>
+            <label for="name">Ad</label>
             <input type="text" name="name" id="name" required>
         
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
         
-            <label for="password">Password</label>
+            <label for="password">Şifrə</label>
             <input type="password" name="password" id="password" required>
         
-            <label for="confirm">Confirm Password</label>
+            <label for="confirm">Şifrəni təsdiqləyin</label>
             <input type="password" name="confirm" id="confirm" required> 
         
             <input type="hidden" name="coins" id="coins">
